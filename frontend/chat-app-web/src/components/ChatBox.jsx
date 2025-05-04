@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { FiSend } from 'react-icons/fi'; // Ensure react-icons is installed
+import { FiSend } from 'react-icons/fi';
 
 const ChatBox = ({ sendMessage }) => {
     const [message, setMessage] = useState('');

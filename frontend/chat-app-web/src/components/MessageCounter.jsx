@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
-const MassageCounter = ({ userMessages = [] }) => {
+const MessageCounter = ({ userMessages = [] }) => {
     return (
         <div>
             <Table striped bordered>
@@ -18,4 +18,4 @@ const MassageCounter = ({ userMessages = [] }) => {
     );
 }
 
-export default MassageCounter;
+export default MessageCounter;

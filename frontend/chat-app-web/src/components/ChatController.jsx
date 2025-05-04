@@ -13,7 +13,7 @@ const ChatController = () => {
         setLoading(true);
         try {
             const connection = new HubConnectionBuilder()
-                .withUrl("https://localhost:5000/ws/chat")
+                .withUrl("https://localhost:5001/ws/chat")
                 .configureLogging(LogLevel.Information)
                 .build();
 
